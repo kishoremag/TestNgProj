@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Both country names same]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="171" started-at="2023-02-03T20:59:34 PST" finished-at="2023-02-03T20:59:34 PST">
+  <suite name="Suite" duration-ms="66296" started-at="2023-02-27T12:31:44 PST" finished-at="2023-02-27T12:32:50 PST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="171" started-at="2023-02-03T20:59:34 PST" finished-at="2023-02-03T20:59:34 PST">
-      <class name="org.testNG.practice.Priority">
-        <test-method status="PASS" signature="login()[pri:0, instance:org.testNG.practice.Priority@1f1c7bf6]" name="login" duration-ms="23" started-at="2023-02-03T20:59:34 PST" finished-at="2023-02-03T20:59:34 PST">
+    <test name="Test" duration-ms="66296" started-at="2023-02-27T12:31:44 PST" finished-at="2023-02-27T12:32:50 PST">
+      <class name="RealTimeScenarios.Runner">
+        <test-method status="PASS" signature="validateImdbAndWiki()[pri:1, instance:RealTimeScenarios.Runner@6b26e945]" name="validateImdbAndWiki" duration-ms="66146" started-at="2023-02-27T12:31:44 PST" finished-at="2023-02-27T12:32:50 PST">
           <reporter-output>
+            <line>
+              <![CDATA[Both country names same]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="password()[pri:1, instance:org.testNG.practice.Priority@1f1c7bf6]" name="password" duration-ms="3" started-at="2023-02-03T20:59:34 PST" finished-at="2023-02-03T20:59:34 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- password -->
-      </class> <!-- org.testNG.practice.Priority -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- validateImdbAndWiki -->
+      </class> <!-- RealTimeScenarios.Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

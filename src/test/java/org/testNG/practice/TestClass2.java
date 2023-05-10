@@ -4,20 +4,23 @@ import org.testng.annotations.Test;
 
 public class TestClass2 
 {
-	@Test(priority =0)
-	public void testMethod1() {
+	@Test
+	public void testMethod4() {
 		System.out.println("TestClass2 >> testMethod4 >> " +Thread.currentThread().getId());
 	}
 	
-	@Test(priority =0)
-	public void testMethod2() {
+	@Test
+	public void testMethod5() {
+		System.out.println("TestClass2 >> testMethod5 >> " +Thread.currentThread().getId());
+	}
+	
+	@Test
+	public void testMethod6() {
 		System.out.println("TestClass2 >> testMethod6 >> " +Thread.currentThread().getId());
 	}
 	
-	@Test(priority =0)
-	public void testMethod3() {
+	@Test
+	public void testMethod7() {
 		System.out.println("TestClass2 >> testMethod7 >> " +Thread.currentThread().getId());
 	}
-	
 }
-

@@ -16,7 +16,7 @@ public class TestClass3
 	
 	@Test
 	public void testMethod10() {
-		System.out.println("TestClass3 >> testMethod10 >> " +Thread.currentThread().getId());
+		System.out.println("TestClass3 >> TestMethod10 >> " +Thread.currentThread().getId());
 	}
 	
 	@Test

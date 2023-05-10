@@ -32,15 +32,17 @@ public class Imdb
 
 	public String getTextforcountryImdb()
 	{
-		String x=country.getText();
+		String x = country.getText();
 		System.out.println(x);
 		return x;
+		
 	}
 	public String getTextforReleaseDateImdb()
 	{
 		String y=releaseDate.getText();
 		System.out.println(y);
 		return y;
+		
 	}
 
 }
